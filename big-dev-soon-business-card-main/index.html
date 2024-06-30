@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigDevSoon - Business Card Project</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js" defer></script>
+  <!-- Include Poppins font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <!-- tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+    integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Parent -->
+  <div class="bg-green-300 flex items-center justify-center h-screen">
+    <div class=" bg-white w-[70%] h-[80%] rounded-3xl  drop-shadow-2xl flex">
+      <!-- 1 Contact -->
+      <div class="w-1/3 bg-green-700 rounded-l-3xl  flex flex-col items-start justify-end">
+        <div class="border-b-[20px] border-white w-full p-5 text-white">          
+          <p class="flex items-center"><img class="inline-block mr-2" src="./assets/icons/email-icon.svg"
+              alt="Envelope">Email</p>
+          <p class="mb-5">example@gmail.com</p>
+          <p class="flex items-center"><img class="inline-block mr-2" src="./assets/icons/phone-icon.svg"
+              alt="Phone">Phone</p>
+          <p>+92-3079493197</p>
+        </div>
+        <div class="h-1/3 text-white p-5">
+          <p class="mb-2">Find me on</p>
+          <div class="flex gap-3">
+            <a class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" href="https://github.com/Shoaib4447" target="_blank" rel="noopener noreferrer"><img
+                src="./assets/icons/github-icon.svg" alt="github"></a>
+            <a class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" href="https://www.linkedin.com/in/shoaib-ur-rehman-59a591232" target="_blank"
+              rel="noopener noreferrer"><img src="./assets/icons/linkedin-icon.svg" alt="linkedin"></a>
+            <a class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/twitter-icon.svg"
+                alt="twitter"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Image -->
+      <div class="w-1/4 flex justify-center items-center relative">
+        <!-- Square -->
+        <div class="absolute left-[-53%] top-[25%] z-10 bg-white p-5"></div>
+        <div class="absolute left-[-10%] top-[82%] z-10 bg-gray-300 p-5"></div>
+        <!-- Rectangle -->
+        <div class="absolute right-[-10%] top-[23%] z-10 bg-gray-200 py-2 px-5 "></div>
+        <!-- Circle Image bottom-->
+        <div class="absolute right-[-15%] top-[82%] rounded-full z- bg-green-700 p-6 "></div>
+        <img class="blur-[3px] object-cover absolute max-w-[150%] left-[-43%]" src="./assets/images/user-photo.jpg" alt="User Image">
+      </div>
+
+      <!-- 3 Info -->
+      <div class="w-5/12 rounded-r-lg flex flex-col items-start justify-center p-7 pl-10 gap-y-4 overflow-hidden relative">
+        <!-- Circle Parent Corner-->
+        <div class="absolute right-[-20%] top-[-15%] rounded-full z- bg-green-700 p-20 "></div>
+        <div>
+          <h1 class="text-5xl font-bold text-green-900">SHOAIB</h1>
+          <h1 class="text-5xl font-bold">BHATTI</h1>
+        </div>
+        <h5 class="text-md font-bold">Frontend Developer . Lahore</h5>
+        <p class="text-wrap">Shoaib ur Rehman is a passionate and skilled Frontend Developer based in Lahore, specializing in creating responsive and visually stunning websites using modern web technologies like JavaScript, React, Wordpress, Webflow.</p>
+        <h5 class="text-md font-bold">Working with technologies:</h5>
+        <ul class="list-disc ml-5">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Wordpress</li>
+          <li>Webflow</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer text-center mt-4">
+    <a href="https://bigdevsoon.me" target="_blank" rel="noopener noreferrer" class="block">Project by BigDevSoon</a>
+    <span>Built with ❤️ by Shoaib ur Rehman</span>
+  </div>
+</body>
+
+</html>
